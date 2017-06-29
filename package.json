@@ -1,6 +1,6 @@
 {
   "name": "keyboardevents-areequal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if two keyboardevents objects are equals.",
   "repository": "parro-it/keyboardevents-areequal",
   "author": "Andrea <andrea@parro.it>",
@@ -16,5 +16,11 @@
   },
   "keywords": [],
   "tonicExampleFilename": "example.js",
-  "module": "main.js"
+  "module": "main.js",
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "documentation": "^4.0.0-rc.1",
+    "rollup": "^0.43.0",
+    "xo": "^0.18.2"
+  }
 }
