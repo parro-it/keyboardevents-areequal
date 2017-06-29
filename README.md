@@ -5,22 +5,22 @@
 
 > Check if two keyboardevents objects are equals.
 
-background details relevant to understanding what this module does
+This module is part of an ongoing effort to make [electron-localshortcut](https://github.com/parro-it/electron-localshortcut) less error prone, using keyboard DOM listener instead of 'globalShortcut' method to trigger shortcuts handlers.
 
 ## Usage
 
-description of the example
+This example check if various KeyboardEvent objects represents the same event:
 
 ```js
-const keyboardeventsAreequal = require('keyboardevents-areequal');
+const areEqual = require('keyboardevents-areequal');
 
-console.log({keyboardeventsAreequal});
+console.log(areEqual({ctrlKey: true, code: 'f'}, {ctrlKey: true, code: 'f'}));
+// true
+
+console.log(areEqual({code: 'f'}, {ctrlKey: true, code: 'f'}));
+// false
 ```
 
-This will output
-
-```
-```
 
 ## API
 
