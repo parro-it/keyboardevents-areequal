@@ -1,9 +1,9 @@
-# $package_name
+# keyboardevents-areequal
 
-[![Travis Build Status](https://img.shields.io/travis/$package_author/$package_name/master.svg)](http://travis-ci.org/$package_author/$package_name)
-[![NPM downloads](https://img.shields.io/npm/dt/$package_name.svg)](https://npmjs.org/package/$package_name)
+[![Travis Build Status](https://img.shields.io/travis/parro-it/keyboardevents-areequal/master.svg)](http://travis-ci.org/parro-it/keyboardevents-areequal)
+[![NPM downloads](https://img.shields.io/npm/dt/keyboardevents-areequal.svg)](https://npmjs.org/package/keyboardevents-areequal)
 
-> $package_description
+> Check if two keyboardevents objects are equals.
 
 background details relevant to understanding what this module does
 
@@ -12,9 +12,9 @@ background details relevant to understanding what this module does
 description of the example
 
 ```js
-const $package_var = require('$package_name');
+const keyboardeventsAreequal = require('keyboardevents-areequal');
 
-console.log({$package_var});
+console.log({keyboardeventsAreequal});
 ```
 
 This will output
@@ -29,7 +29,7 @@ This will output
 With [npm](https://npmjs.org/) installed, run
 
 ```bash
-npm install --save $package_name
+npm install --save keyboardevents-areequal
 ```
 
 ## See Also

@@ -1,4 +1,4 @@
-const $package_var = require('$package_name');
+const keyboardeventsAreequal = require('keyboardevents-areequal');
 
-console.log({$package_var});
+console.log({keyboardeventsAreequal});
 
