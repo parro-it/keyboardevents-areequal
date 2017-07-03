@@ -11,30 +11,30 @@ test('return true for same object', t => {
 });
 
 test('return false for different `altKey` props', t => {
-	t.false(areEqual({altKey: true}, {altKey: false}));
+	t.false(areEqual({key: 'c', altKey: true}, {key: 'c', altKey: false}));
 });
 
 test('return true for false and absent `altKey` props', t => {
-	t.true(areEqual({}, {altKey: false}));
+	t.true(areEqual({key: 'c'}, {key: 'c', altKey: false}));
 });
 
 test('return false for different `ctrlKey` props', t => {
-	t.false(areEqual({ctrlKey: true}, {ctrlKey: false}));
+	t.false(areEqual({key: 'c', ctrlKey: true}, {key: 'c', ctrlKey: false}));
 });
 
 test('return true for false and absent `ctrlKey` props', t => {
-	t.true(areEqual({}, {ctrlKey: false}));
+	t.true(areEqual({key: 'c'}, {key: 'c', ctrlKey: false}));
 });
 test('return false for different `shiftKey` props', t => {
-	t.false(areEqual({shiftKey: true}, {shiftKey: false}));
+	t.false(areEqual({key: 'c', shiftKey: true}, {key: 'c', shiftKey: false}));
 });
 
 test('return true for false and absent `shiftKey` props', t => {
-	t.true(areEqual({}, {shiftKey: false}));
+	t.true(areEqual({key: 'c'}, {key: 'c', shiftKey: false}));
 });
 
 test('return false for different `metaKey` props', t => {
-	t.false(areEqual({metaKey: true}, {metaKey: false}));
+	t.false(areEqual({key: 'c', metaKey: true}, {key: 'c', metaKey: false}));
 });
 
 test('return false for different `key` props', t => {
@@ -54,6 +54,6 @@ test('return false for different `code` props', t => {
 });
 
 test('return true for false and absent `metaKey` props', t => {
-	t.true(areEqual({}, {metaKey: false}));
+	t.true(areEqual({key: 'c'}, {key: 'c', metaKey: false}));
 });
 
