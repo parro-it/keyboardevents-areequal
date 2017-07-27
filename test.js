@@ -57,3 +57,9 @@ test('return true for false and absent `metaKey` props', t => {
 	t.true(areEqual({key: 'c'}, {key: 'c', metaKey: false}));
 });
 
+test('keys are matched case insensitive', t => {
+	t.true(areEqual(
+		{code: 'KeyI', key: 'I', altKey: false, shiftKey: true, metaKey: false, ctrlKey: true},
+		{ctrlKey: true, shiftKey: true, key: 'i'}
+	));
+});
