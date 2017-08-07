@@ -1,6 +1,6 @@
 {
   "name": "keyboardevents-areequal",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Check if two keyboardevents objects are equals.",
   "repository": "parro-it/keyboardevents-areequal",
   "author": "Andrea <andrea@parro.it>",
